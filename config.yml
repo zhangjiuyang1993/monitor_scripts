@@ -1,0 +1,21 @@
+sbybz3168.sby.ibm.com:
+  user: liuqqbj
+  password: passw5rd
+  root_dir: /home/esb2/mon_scripts
+  log_dir: /mqlog/
+  queue_managers:
+    IDMTUAT:
+      queues:
+        IDM.MAINTAINCONTACT.MDM.RESPONSE.ERROR:
+          threshold: 0
+        IDM.MAINTAINCONTACT.REQUEST.ERROR:
+          threshold: 0
+    ESBTUAT:
+      queues:
+        SCW.CAAS.DSWSAP.ORDER.ERROR:
+          threshold: 0
+
+
+
+
+
